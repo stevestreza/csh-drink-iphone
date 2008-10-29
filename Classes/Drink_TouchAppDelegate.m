@@ -9,11 +9,12 @@
 #import "Drink_TouchAppDelegate.h"
 #import "Drink_TouchViewController.h"
 
+#import "CSHDrinkClient.h"
+
 @implementation Drink_TouchAppDelegate
 
 @synthesize window;
 @synthesize viewController;
-
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {	
 	

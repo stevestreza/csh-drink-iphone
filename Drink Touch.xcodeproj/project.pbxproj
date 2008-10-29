@@ -13,7 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		1E662F440EB8122C00B76051 /* CSHDrinkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E662F430EB8122C00B76051 /* CSHDrinkClient.m */; };
 		1E662F4A0EB817A400B76051 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E662F470EB817A400B76051 /* AsyncSocket.m */; };
-		1E662F4B0EB817A400B76051 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E662F490EB817A400B76051 /* AsyncUdpSocket.m */; };
+		1E662F560EB822D200B76051 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D1107310486CEB800E47090 /* Info.plist */; };
 		2899E5220DE3E06400AC0155 /* Drink_TouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Drink_TouchViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* Drink_TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Drink_TouchViewController.m */; };
@@ -168,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E662F560EB822D200B76051 /* Info.plist in Resources */,
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* Drink_TouchViewController.xib in Resources */,
 			);
@@ -185,7 +186,6 @@
 				28D7ACF80DDB3853001CB0EB /* Drink_TouchViewController.m in Sources */,
 				1E662F440EB8122C00B76051 /* CSHDrinkClient.m in Sources */,
 				1E662F4A0EB817A400B76051 /* AsyncSocket.m in Sources */,
-				1E662F4B0EB817A400B76051 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +200,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Drink_Touch_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = "Other Sources/Drink_Touch_Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = "Drink Touch";
 			};
 			name = Debug;
@@ -212,8 +212,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Drink_Touch_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = "Other Sources/Drink_Touch_Prefix.pch";
+				INFOPLIST_FILE = Resources/Info.plist;
 				PRODUCT_NAME = "Drink Touch";
 			};
 			name = Release;
@@ -226,6 +226,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = iphoneos2.0;
@@ -240,6 +241,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
 				PREBINDING = NO;
 				SDKROOT = iphoneos2.0;
 			};

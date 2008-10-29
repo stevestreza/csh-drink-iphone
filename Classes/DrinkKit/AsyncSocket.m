@@ -1462,23 +1462,23 @@ Failed:;
 	else if(err.domain == kCFStreamErrorDomainMacOSStatus) {
 		domain = NSOSStatusErrorDomain;
 	}
-	else if(err.domain == kCFStreamErrorDomainMach) {
-		domain = NSMachErrorDomain;
-	}
-	else if(err.domain == kCFStreamErrorDomainNetDB)
-	{
-		domain = @"kCFStreamErrorDomainNetDB";
-		message = [NSString stringWithCString:gai_strerror(err.error) encoding:NSASCIIStringEncoding];
-	}
-	else if(err.domain == kCFStreamErrorDomainNetServices) {
-		domain = @"kCFStreamErrorDomainNetServices";
-	}
+//	else if(err.domain == kCFStreamErrorDomainMach) {
+//		domain = NSMachErrorDomain;
+//	}
+//	else if(err.domain == kCFStreamErrorDomainNetDB)
+//	{
+//		domain = @"kCFStreamErrorDomainNetDB";
+//		message = [NSString stringWithCString:gai_strerror(err.error) encoding:NSASCIIStringEncoding];
+//	}
+//	else if(err.domain == kCFStreamErrorDomainNetServices) {
+//		domain = @"kCFStreamErrorDomainNetServices";
+//	}
 	else if(err.domain == kCFStreamErrorDomainSOCKS) {
 		domain = @"kCFStreamErrorDomainSOCKS";
 	}
-	else if(err.domain == kCFStreamErrorDomainSystemConfiguration) {
-		domain = @"kCFStreamErrorDomainSystemConfiguration";
-	}
+//	else if(err.domain == kCFStreamErrorDomainSystemConfiguration) {
+//		domain = @"kCFStreamErrorDomainSystemConfiguration";
+//	}
 	else if(err.domain == kCFStreamErrorDomainSSL) {
 		domain = @"kCFStreamErrorDomainSSL";
 	}
