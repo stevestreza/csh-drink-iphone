@@ -11,6 +11,9 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1E662F440EB8122C00B76051 /* CSHDrinkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E662F430EB8122C00B76051 /* CSHDrinkClient.m */; };
+		1E662F4A0EB817A400B76051 /* AsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E662F470EB817A400B76051 /* AsyncSocket.m */; };
+		1E662F4B0EB817A400B76051 /* AsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E662F490EB817A400B76051 /* AsyncUdpSocket.m */; };
 		2899E5220DE3E06400AC0155 /* Drink_TouchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Drink_TouchViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* Drink_TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Drink_TouchViewController.m */; };
@@ -22,6 +25,12 @@
 		1D3623250D0F684500981E51 /* Drink_TouchAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drink_TouchAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* Drink Touch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drink Touch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E662F420EB8122C00B76051 /* CSHDrinkClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSHDrinkClient.h; sourceTree = "<group>"; };
+		1E662F430EB8122C00B76051 /* CSHDrinkClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSHDrinkClient.m; sourceTree = "<group>"; };
+		1E662F460EB817A400B76051 /* AsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncSocket.h; path = Classes/DrinkKit/AsyncSocket.h; sourceTree = SOURCE_ROOT; };
+		1E662F470EB817A400B76051 /* AsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncSocket.m; path = Classes/DrinkKit/AsyncSocket.m; sourceTree = SOURCE_ROOT; };
+		1E662F480EB817A400B76051 /* AsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AsyncUdpSocket.h; path = Classes/DrinkKit/AsyncUdpSocket.h; sourceTree = SOURCE_ROOT; };
+		1E662F490EB817A400B76051 /* AsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AsyncUdpSocket.m; path = Classes/DrinkKit/AsyncUdpSocket.m; sourceTree = SOURCE_ROOT; };
 		2899E5210DE3E06400AC0155 /* Drink_TouchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Drink_TouchViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28D7ACF60DDB3853001CB0EB /* Drink_TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drink_TouchViewController.h; sourceTree = "<group>"; };
@@ -47,6 +56,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1E662F410EB8121200B76051 /* DrinkKit */,
 				1D3623240D0F684500981E51 /* Drink_TouchAppDelegate.h */,
 				1D3623250D0F684500981E51 /* Drink_TouchAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* Drink_TouchViewController.h */,
@@ -61,6 +71,19 @@
 				1D6058910D05DD3D006BFB54 /* Drink Touch.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1E662F410EB8121200B76051 /* DrinkKit */ = {
+			isa = PBXGroup;
+			children = (
+				1E662F460EB817A400B76051 /* AsyncSocket.h */,
+				1E662F470EB817A400B76051 /* AsyncSocket.m */,
+				1E662F480EB817A400B76051 /* AsyncUdpSocket.h */,
+				1E662F490EB817A400B76051 /* AsyncUdpSocket.m */,
+				1E662F420EB8122C00B76051 /* CSHDrinkClient.h */,
+				1E662F430EB8122C00B76051 /* CSHDrinkClient.m */,
+			);
+			path = DrinkKit;
 			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
@@ -160,6 +183,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* Drink_TouchAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* Drink_TouchViewController.m in Sources */,
+				1E662F440EB8122C00B76051 /* CSHDrinkClient.m in Sources */,
+				1E662F4A0EB817A400B76051 /* AsyncSocket.m in Sources */,
+				1E662F4B0EB817A400B76051 /* AsyncUdpSocket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

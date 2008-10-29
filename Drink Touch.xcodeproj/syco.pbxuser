@@ -41,10 +41,28 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
+	1E662F420EB8122C00B76051 /* CSHDrinkClient.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1380, 746}}";
+			sepNavSelRange = "{241, 0}";
+			sepNavVisRange = "{0, 575}";
+			sepNavWindowFrame = "{{15, -1}, {1439, 874}}";
+		};
+	};
+	1E662F430EB8122C00B76051 /* CSHDrinkClient.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 741}}";
+			sepNavSelRange = "{536, 0}";
+			sepNavVisRange = "{0, 562}";
+		};
+	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = 1E662F1E0EB80F3700B76051 /* Drink Touch */;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* Drink Touch */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Drink Touch */,
+		);
 		codeSenseManager = 1E662F290EB80F3900B76051 /* Code sense */;
 		executables = (
 			1E662F1E0EB80F3700B76051 /* Drink Touch */,
