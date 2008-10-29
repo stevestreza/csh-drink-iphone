@@ -233,6 +233,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -268,15 +270,18 @@
 						<key>PBXSmartGroupTreeModuleOutlineStateKey_v7</key>
 						<dict>
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
-							<array/>
+							<array>
+								<string>29B97314FDCFA39411CA2CEA</string>
+							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {185, 428}}</string>
+							<string>{{0, 0}, {185, 760}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -286,14 +291,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {202, 446}}</string>
+						<string>{{0, 0}, {202, 778}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>185</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>315 308 810 487 0 0 1440 878 </string>
+						<string>3 59 1440 819 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,23 +335,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {603, -2}}</string>
+								<string>{{0, 0}, {1233, 0}}</string>
 								<key>RubberWindowFrame</key>
-								<string>315 308 810 487 0 0 1440 878 </string>
+								<string>3 59 1440 819 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>-2pt</string>
+							<string>0pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>443pt</string>
+							<string>773pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -357,9 +360,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {603, 416}}</string>
+										<string>{{10, 27}, {1233, 746}}</string>
 										<key>RubberWindowFrame</key>
-										<string>315 308 810 487 0 0 1440 878 </string>
+										<string>3 59 1440 819 0 0 1440 878 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -422,7 +425,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>603pt</string>
+					<string>1233pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -441,11 +444,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1E662F240EB80F3900B76051</string>
+				<string>1E662F3D0EB8118600B76051</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>1E662F250EB80F3900B76051</string>
+				<string>1E662F3E0EB8118600B76051</string>
 				<string>1E662F220EB80F3900B76051</string>
-				<string>1E662F260EB80F3900B76051</string>
+				<string>1E662F3F0EB8118600B76051</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -628,10 +631,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/syco/Projects/Drink Touch/Drink Touch.xcodeproj</string>
+		<string>/Users/syco/Projects/csh-drink-iphone/Drink Touch.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>315 308 810 487 0 0 1440 878 </string>
+	<string>3 59 1440 819 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
